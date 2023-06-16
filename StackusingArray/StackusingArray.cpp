@@ -18,5 +18,11 @@ public:
 			return 0;
 		}
 
+		top++; // step 2
+		stack_array[top] = element; //step3
+		cout << endl;
+		cout << element << "ditambahakan(pushed)" << endl;
+
+		return element;
 	}
 };
