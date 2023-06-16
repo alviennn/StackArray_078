@@ -12,4 +12,11 @@ public:
 	StackArray() {
 		top = -1;
 	} 
+	int push(int element) {
+		if (top == 4) {
+			cout << "Member of data exceed the limit" << endl;
+			return 0;
+		}
+
+	}
 };
