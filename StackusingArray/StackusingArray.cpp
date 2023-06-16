@@ -58,11 +58,12 @@ int main() {
 	char ch;
 
 	while (true) {
-		cout << endl << "MENU";
-		cout << endl << "1. Push Data";
-		cout << "2. Pop Data" << endl;
-		cout << "3. Display" << endl;
-		cout << "4. EXIT" << endl;
+		cout << endl;
+		cout << "\nn***MENU***\n";
+		cout << "1. Push Data \n";
+		cout << "2. Pop Data \n" << endl;
+		cout << "3. Display \n" << endl;
+		cout << "4. EXIT\n" << endl;
 		cout << "Enter your choice";
 		cin >> ch;
 
