@@ -31,5 +31,8 @@ public:
 			cout << "\nStack is empty. Cannot pop." << endl; //1a
 			return; //1b
 		}
+
+		cout << "\nThe popped element is : " << stack_array[top] << endl; //step2
+		top--;
 	}
 };
