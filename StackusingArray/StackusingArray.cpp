@@ -68,16 +68,24 @@ int main() {
 
 		switch (ch) {
 		case '1': {
-			
-			s.push();
+			data.push();
 			break;
 		}
 		case'2':
-			if (s.empty()) {
-
+			if (data.empty()) {
+				cout << "\nStack is empty." << endl;
+				break;
 			}
+			data.pop();
+			break;
+		case '3': 
+			data.display();
+			break;
+		case '4' :
+			return 0;
+		default:
+			cout << "\nInvalid choice." << endl;
+			break;
 		}
-
 	}
-
 }
