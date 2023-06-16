@@ -56,5 +56,13 @@ int main() {
 	StackArray data;
 	char ch;
 
-	
+	while (true) {
+		cout << endl << "MENU";
+		cout << endl << "1. Input Data";
+		cout << "2. Delete Data" << endl;
+		cout << "3. Display Data" << endl;
+		cout << "4. EXIT" << endl;
+		cout << "Enter your choice";
+		cin >> ch;
+	}
 }
